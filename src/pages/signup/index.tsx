@@ -32,6 +32,7 @@ const Signin = () => {
         display="block"
         backgroundColor="purple.100"
         borderRadius="10"
+        onSubmit={handleSubmit(onSubmit)}
       >
         <VStack w="100%" spacing="2">
           <Input label="Username" />
